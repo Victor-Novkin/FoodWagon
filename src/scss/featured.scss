@@ -1,0 +1,133 @@
+.featured {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.featured__title {
+    display: flex;
+    justify-content: center;
+    color: #212121;
+    text-align: center;
+    font-size: 43px;
+    margin-bottom: 70px;
+}
+
+.featured__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
+    max-width: 1350px;
+}
+
+.featured__card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 0 0 calc(25% - (50px * 3 / 4));
+    box-sizing: border-box;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.featured__card:hover {
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+
+.featured__card-img {
+    width: 100%;
+}
+
+.featured__brand {
+    display: flex;
+    position: relative;
+}
+
+.featured__brand-title {
+    padding-left: 20px;
+    margin: 0;
+    font-size: 22px;
+}
+
+.featured__brand-review {
+    position: absolute;
+    left: 84px;
+    top: 35px;
+    margin: 0;
+    padding: 0;
+    color: #ffb20d;
+    font-size: 22px;
+}
+
+.featured__brand-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.featured__card-btn {
+    background-color: rgba(241, 114, 40, 0.20000000298023224);
+    width: 197px;
+    height: 42px;
+    border-radius: 16px;
+    padding-bottom: 8px;
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f17228;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.second {
+    margin: 20px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #ffb20d;
+    font-size: 22px;
+}
+
+.green {
+    background-color: rgba(121, 184, 60, 0.20000000298023224);
+    color: #79b83c;
+}
+
+.featured__btn {
+    width: 178px;
+    height: 60px;
+    border-radius: 14px;
+    outline: none;
+    cursor: pointer;
+    background-color: #ee884d;
+    box-shadow: 0px 20px 40px 0px rgba(255, 173, 0, 0.28999999165534973), 0px 5px 10px 0px rgba(255, 173, 0, 0.25999999046325684);
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    transition: 0.4s;
+}
+
+.featured__btn:hover {
+    transition: 0.4s;
+    transform: scale(1.2);
+    background-color: #ffb20d;
+}
