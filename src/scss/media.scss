@@ -565,11 +565,19 @@
         margin-top: 550px;
     }
 
+    .popular__title {
+        margin-top: 200px;
+    }
+
     .popular__cards {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 20px;
-        margin-left: -13px;
+        margin-left: -10px;
+    }
+
+    .carousel {
+        width: 330px;
     }
 
     .popular__card {
@@ -689,5 +697,9 @@
 
     .footer__input {
         width: 79px;
+    }
+
+    .carousel {
+        margin-left: -10px;
     }
 }
